@@ -42,7 +42,7 @@ export default function Login() {
         <Form.Group size="lg" controlId="email">
           <Form.Label>Email</Form.Label>
           <Form.Control
-            autofocus
+            autoFocus
             type="email"
             value={fields.email}
             onChange={handleFieldChange}
