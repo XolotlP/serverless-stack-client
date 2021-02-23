@@ -1,4 +1,6 @@
 const config = {
+  STRIPE_KEY: "pk_test_51INQiRG5y8M5StqBCVclVSkf6VJsvLgqFrQqFyemRnCHUAtgOOY9aPhQOkrBOiW6Y5Du1TJj4g6wiwPYDd5fHmgz00gRQkCJaw",
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-api-xolotlp"
